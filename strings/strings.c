@@ -4,7 +4,7 @@
 int main(void)
 {
     char name1[100] = {"fabian"};
-    char name2[100] = {"Ruben"};
+    char name2[100] = {"hans"};
     char name3[100] = {""};
 
     printf("%s \n", name1);

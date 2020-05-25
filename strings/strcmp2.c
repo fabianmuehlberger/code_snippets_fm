@@ -1,10 +1,9 @@
-/* strcmp.c */
-//int strcmp(const char *s1, const char *s2);
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-void String_Vergleich(char s1[], char s2[]) {
+void stringCompare(char s1[], char s2[]) {
    int ret = strcmp (s1, s2);
    if(ret == 0)
       printf("%s == %s\n", s1, s2);
@@ -17,9 +16,9 @@ int main(void) {
    char str2[] = "aab";
    char str3[] = "abb";
 
-   String_Vergleich(str1, str2);
-   String_Vergleich(str1, str3);
-   String_Vergleich(str3, str2);
-   String_Vergleich(str1, str1);
-   return EXIT_SUCCESS;
+   stringCompare(str1, str2);
+   stringCompare(str1, str3);
+   stringCompare(str3, str2);
+   stringCompare(str1, str1);
+   return 0;
 }

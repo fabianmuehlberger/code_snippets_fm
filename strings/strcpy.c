@@ -1,11 +1,12 @@
-/* strcpy.c */
-//char *strcpy(char *s1, const char *s2);
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
+#define LEN 50
+
 int main(void) {
-   char ziel_str[50];
+   char ziel_str[LEN];
    char str1[] = "Das ist ";
    char str2[] = "ein ";
    char str3[] = "Teststring";
@@ -16,5 +17,5 @@ int main(void) {
    /* So ist es einfacher und sicherer */
    strcat(ziel_str, str3);
    printf("%s\n",ziel_str);
-   return EXIT_SUCCESS;
+   return 0;
 }

@@ -1,14 +1,13 @@
-/* strlen.c */
-//size_t strlen(const char *s1);
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 int main(void) {
-   char string[] = "Das ist ein Teststring";
+   char string[] = "Das ist ein String";
    size_t laenge;
 
    laenge = strlen(string);
    printf("Der String \"%s\" hat %d Zeichen\n",string, laenge);
-   return EXIT_SUCCESS;
+   return 0;
 }
