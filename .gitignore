@@ -1,3 +1,10 @@
+# editor project files
+.vsoce
+.idea
+
+#cmake
+build
+
 # Prerequisites
 *.d
 
