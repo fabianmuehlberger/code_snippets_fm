@@ -23,7 +23,7 @@ int main(void)
     printf("Enter a Number: ");
 
     //gets the userinput from the console
-    scnaf("%i", &x);
+    scanf("%i", &x);
 
     //prints the new value of x
     printf("x = %i", x);
